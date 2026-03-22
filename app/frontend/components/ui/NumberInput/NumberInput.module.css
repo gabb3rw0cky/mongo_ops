@@ -1,0 +1,40 @@
+.mongo_input {
+    background-color: #1f1f1f;
+    color: #c9c9c9;
+    border: 1px solid #383838;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.mongo_input:hover {
+    background-color: #383838;
+    color: #ffffff;
+
+}
+
+.mongo_input:focus {
+    box-shadow: 0 0 1px 2px #bdbdbd30;
+}
+
+.mongo_input[type="number"] {
+  appearance: textfield;
+}
+
+/* .mongo_input[type="number"]::-webkit-inner-spin-button,
+.mongo_input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+.mongo_input[type="number"] {
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    background: red;
+    cursor: pointer;
+    border-radius: 4px;
+} */

@@ -1,0 +1,1 @@
+Do not use the same keys used in env examples. Generate your own keys using pythons `secrets` or OPENSSL.
